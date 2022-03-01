@@ -1,0 +1,454 @@
+
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+#main_menu ul li a {
+	display: inline-block;
+}
+.apu{
+	color: #fff;
+	font-size: 30px;
+	height: auto;
+}
+#main_menu .navbar-toggler:focus {
+	box-shadow: none; 
+}
+.sticky .logo_bg::before {
+	height: 53px !important;
+}
+.team_part .team_item .pic .overlay-1 .icon i {
+	font-size: 17px;
+	width: 30px;
+	height: 30px;
+	line-height: 30px;
+}
+.team_part .team_item:hover .text {
+	bottom: -85px;
+}
+.team_part .team_item .text h6 {
+	padding-bottom: 7px;
+}
+.team_part .team_item .text p {
+	font-size: 12px;
+	padding: 0 15px;
+}
+/*team part end====================*/
+
+/*member_part start=========================*/
+.counter_part .main_counter .item h3 {
+	font-size: 30px;
+}
+.counter_part .main_counter .item h4 {
+	font-size: 13px;
+	font-weight: 500;
+}
+/*member_part end=========================*/
+
+
+}
+
+
+/*small devices part start=========================*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+	.apu{
+		color: #fff;
+		font-size: 30px;
+		height: auto;
+	}
+	#main_menu .logo_bg {
+		left: 40px;
+	}
+
+	#main_menu .navbar-toggler:focus {
+	 box-shadow: none; 
+	}
+	#main_menu .logo_bg::before {
+		width: 175px;
+		height: 60px;
+	}
+
+	.navbar-nav {
+		background: black;
+	}
+
+	#main_menu ul li a {
+		padding: 10px 10px;
+		text-align: center;
+	}
+
+	#main_menu ul li a::before {
+		display: none;
+	}
+
+	#main_menu ul li a:hover {
+		color: #fff;
+		background: black;
+	}
+	/*==========menu_part_end===============*/
+
+	/*===============banner part start==================*/
+	.banner_part {
+		padding: 125px 0 70px 0;
+	}
+	.banner_part .banner_text h2::before {
+		display: none;
+	}
+	.banner_part .banner_text h2::after {
+		display: none;
+	}
+	.banner_part .banner_text h1::before {
+		display: none;
+	}
+	.banner_part .banner_text h1::after {
+		display: none;
+	}
+	.banner_part .banner_text .banner_btn::before {
+		display: none;
+	}
+	.banner_part .banner_text .banner_btn::after {
+		display: none;
+	}
+
+	.banner_part .banner_text h2 {
+		font-size: 25px;
+	}
+	.banner_part .banner_text h1 {
+		font-size: 43px;
+	}
+
+	.banner_part .banner_text p {
+		width: auto;
+	}
+
+	.banner_part .banner_text .banner_btn a {
+		margin: 0 10px;
+	}
+	/*===============banner part end==================*/
+
+/*================about_part start==============*/
+.about_part {
+	padding: 35px 0;
+}
+
+/*================about_part end==============*/
+
+/*team part start===============*/
+.team_part {
+	padding: 35px 0;
+}
+.team_part .common_div {
+	padding-bottom: 100px;
+}
+.team_part .team_item {
+	margin-bottom: 190px;
+}
+
+.team_part .team_item:hover .pic {
+	top: -100px;
+}
+
+.team_part .team_item:hover .text {
+	bottom: -65px;
+}
+.mar {
+	margin-bottom: 0 !important;
+}
+/*team part end===============*/
+
+
+/*member part start===============*/
+.member_part {
+	padding: 40px 0;
+}
+.member_part .member_item {
+	margin-bottom: 20px;
+}
+.counter_part .main_counter .item {
+	width: 50%;
+	margin-bottom: 30px;
+	text-align: center;
+}
+/*member part end===============*/
+
+
+/*class part start===============*/
+.class_part {
+	padding: 40px 0;
+}
+.class_part .class_button ul {
+	background-color: #fff;
+	width: 100%;
+}
+.class_part .class_button ul li {
+	width: 32.99%;
+	margin-bottom: 10px;
+}
+.class_part .class_details .details_tab li {
+	width: 48%;
+}
+/*class part start===============*/
+
+/*carosael==================*/
+.carosel_part .item img {
+	width: 100%;
+}
+.left_arrow {
+	left: 50%;
+	transform: translateX(-50%);
+	top: 100%;
+}
+.right_arrow {
+	top: 100%;
+	right: 40%;
+	transform: translateX(-50%);
+}
+/*carosael==================*/
+
+/*footer part start======================*/
+.footer_part .ft_mid {
+	padding: 0;
+}
+.footer_part .logo_footer {
+	border-bottom: none;
+}
+.footer_part .footer_bottom {
+	border-top:none;
+}
+.footer_part .item .social{
+	text-align: center;
+}
+.footer_part .item h3 {
+	text-align: center;
+}
+.footer_part .item .days {
+	padding-bottom: 25px;
+}
+.footer_part .item .pera:last-child {
+	padding-bottom: 25px;
+}
+.footer_part .item .footer_img {
+	padding-bottom: 25px;
+}
+/*footer part end======================*/
+
+
+/*sticky header part===================*/
+.sticky .logo_bg::before {
+	height: 53px !important;
+}
+/*sticky header part===================*/
+
+/*back top part===================*/
+.scroll_top a i {
+	font-size: 17px;
+	padding: 6px 6px;
+}
+/*back top part===================*/
+}
+
+/*============================
+small diveces end
+============================*/
+
+
+/*===============================
+extra small part start
+=================================*/
+@media (max-width: 575.98px) {
+	.apu{
+		color: #fff;
+		font-size: 30px;
+		height: auto;
+	}
+	#main_menu .logo_bg {
+		left: 40px;
+	}
+
+	#main_menu .navbar-toggler:focus {
+	 box-shadow: none; 
+	}
+	#main_menu .logo_bg::before {
+		width: 175px;
+		height: 60px;
+	}
+
+	.navbar-nav {
+		background: black;
+	}
+
+	#main_menu ul li a {
+		padding: 10px 10px;
+		text-align: center;
+	}
+
+	#main_menu ul li a::before {
+		display: none;
+	}
+
+	#main_menu ul li a:hover {
+		color: #fff;
+		background: black;
+	}
+	/*==========menu_part_end===============*/
+
+	/*===============banner part start==================*/
+	.banner_part {
+		padding: 125px 0 70px 0;
+	}
+	.banner_part .banner_text h2::before {
+		display: none;
+	}
+	.banner_part .banner_text h2::after {
+		display: none;
+	}
+	.banner_part .banner_text h1::before {
+		display: none;
+	}
+	.banner_part .banner_text h1::after {
+		display: none;
+	}
+	.banner_part .banner_text .banner_btn::before {
+		display: none;
+	}
+	.banner_part .banner_text .banner_btn::after {
+		display: none;
+	}
+
+	.banner_part .banner_text h2 {
+		font-size: 25px;
+	}
+	.banner_part .banner_text h1 {
+		font-size: 43px;
+	}
+
+	.banner_part .banner_text p {
+		width: auto;
+	}
+
+	.banner_part .banner_text .banner_btn a {
+		margin: 0 10px;
+	}
+	/*===============banner part end==================*/
+
+/*================about_part start==============*/
+.about_part {
+	padding: 35px 0;
+}
+/*================about_part end==============*/
+
+/*team part start===============*/
+.team_part {
+	padding: 35px 0;
+}
+.team_part .common_div {
+	padding-bottom: 20px;
+}
+.team_part .team_item {
+	margin-bottom: 163px;
+}
+
+.team_part .team_item:hover .pic {
+	top: 0;
+}
+.team_part .team_item .text {
+	bottom: -140px;
+}
+.team_part .team_item:hover .text {
+	bottom: -140px;
+}
+.team_part .team_item .text p {
+	display: block;
+	opacity: 1;
+}
+/*team part end===============*/
+
+
+/*member part start===============*/
+.member_part {
+	padding: 40px 0;
+}
+.member_part .member_item {
+	margin-bottom: 20px;
+}
+.counter_part .main_counter .item {
+	width: 50%;
+	margin-bottom: 30px;
+	text-align: center;
+}
+/*member part end===============*/
+
+
+/*class part start===============*/
+.class_part {
+	padding: 40px 0;
+}
+.class_part .class_button ul {
+	background-color: #fff;
+	width: 100%;
+}
+.class_part .class_button ul li {
+	width: 32.99%;
+	margin-bottom: 10px;
+}
+.class_part .class_details .details_tab li {
+	width: 48%;
+}
+/*class part start===============*/
+
+/*carosael==================*/
+.carosel_part .item img {
+	width: 100%;
+}
+.left_arrow {
+	left: 50%;
+	transform: translateX(-50%);
+	top: 100%;
+}
+.right_arrow {
+	top: 100%;
+	right: 40%;
+	transform: translateX(-50%);
+}
+/*carosael==================*/
+
+/*footer part start======================*/
+.footer_part .ft_mid {
+	padding: 0;
+}
+.footer_part .logo_footer {
+	border-bottom: none;
+}
+.footer_part .footer_bottom {
+	border-top:none;
+}
+.footer_part .item .social{
+	text-align: center;
+}
+.footer_part .item h3 {
+	text-align: center;
+}
+.footer_part .item .days {
+	padding-bottom: 25px;
+}
+.footer_part .item .pera:last-child {
+	padding-bottom: 25px;
+}
+.footer_part .item .footer_img {
+	padding-bottom: 25px;
+}
+/*footer part end======================*/
+
+
+/*sticky header part===================*/
+.sticky .logo_bg::before {
+	height: 53px !important;
+}
+/*sticky header part===================*/
+
+/*back top part===================*/
+.scroll_top a i {
+	font-size: 17px;
+	padding: 6px 6px;
+}
+/*back top part===================*/
+
+}
